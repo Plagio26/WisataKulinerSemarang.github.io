@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(background.png);
+	font-family: 'Roboto', sans-serif;;
+}
+
+nav{
+	display: flex;
+	width: 98.5%;
+	padding: 10px 10px;
+	background-color: black;
+	color: white;
+}
+
+nav .menu {
+	display: flex;
+	/*width: 50%;*/
+	justify-content: space-evenly;
+	align-items: center;
+	margin: 2px;
+}
+
+nav .menu a {
+	text-decoration: none;
+	color: white;
+	padding: 15px 10px;
+}
+
+nav .menu a:hover {
+	background-color: white;
+	color: black;
+}
+nav .judul-web {
+	width: 300px;
+	font-family: 'Roboto Condensed', sans-serif;
+/*	background-color: yellow*/;
+}
+.judul-web h3, #judul{
+	text-align: center;
+}
+
+/* untuk tampilan gambar webnya */
+.gambar {
+	
+	height: 250px;
+	display: flex;
+	box-sizing: border-box;
+	border: 1px solid black;
+	overflow: hidden;
+}
+.gambar ul {
+	list-style: none;
+}
+#a {
+	position: relative;
+	top: -5px;
+}
+
+/* isi website */
+.container {
+	background-color: rgba(244,239,230,0.65);
+	font-family: 'Roboto Mono', monospace, sans-serif;
+	margin: 30px 30px;
+
+}
+
+/* gambar simpang lima */
+.gambar-0 {
+	background-image: url(download9.jpg);
+	width: 1000px;
+	height: 350px;
+	margin: auto;
+	border: 1px solid black;
+	box-sizing: border-box;
+	overflow: hidden;
+	background-size: cover;
+}
+
+/* bagian footernya */
+footer {
+	width: 98.5%;
+	color: white;
+	background-color: dimgrey;
+	text-align: center;
+	padding: 10px;
+}
